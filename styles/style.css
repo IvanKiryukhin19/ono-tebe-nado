@@ -1,1 +1,123 @@
 /* место для вашего кода */
+html{
+  height: 3028px;
+}
+
+body {
+  position: relative;
+  display: block;
+  background-color: rgb(192, 192, 192);
+  margin-bottom: 88px;
+  border: black 1px solid;
+  min-height: 100%;
+}
+
+.header {
+  position: absolute;
+  border: solid 1px black;
+  width: 1052px;
+  height: 105px;
+  top: 92px;
+  left: 24px;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 454px 148px 550px;
+  grid-template-areas: 'menu logo address';
+}
+
+.header__links-list {
+  position: absolute;
+  top: 44px;
+  left: 26px;
+  display: flex;
+  justify-content: start;
+}
+
+.header__links-list-item {
+  list-style-type: circle;
+  margin-right: 32px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+
+.header__logo-image{
+  width: 129.11px;
+}
+
+
+.header__address{
+    position: absolute;
+    left: 184px;
+    width: 240px;
+    height: 98px;
+    font-style: normal;
+}
+
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 'footer-address footer-menu social-list';
+  position: absolute;
+  border: black 1px solid;
+  width: 1000px;
+  height: 98px;
+  top: 2842px;
+  left: 50px;
+  font-size: 18px;
+  
+}
+
+.footer__address {
+  position: absolute;
+  width: 240px;
+  height: 98px;
+  font-style: normal;
+
+}
+
+.footer__menu {
+  position: absolute;
+  
+}
+
+.footer__links-list-item{
+  list-style-type: none;
+  
+  text-align: center;
+}
+
+.footer__social-list {
+  position: absolute;
+}
+
+
+.header__menu{
+  grid-area: menu;
+}
+
+.header__logo{
+  grid-area: logo;
+}
+
+.header__address{
+  grid-area: address;
+}
+
+.footer__address {
+  grid-area: footer-address;
+}
+
+.footer__menu {
+  grid-area: footer-menu;
+  justify-self: center;
+}
+
+.footer__social-list {
+  grid-area: social-list;
+  left: 100px;
+}
