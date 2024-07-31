@@ -59,7 +59,7 @@
   font-style: normal;
   justify-self: right;
   align-self: center;
-  margin-right: 25px; 
+  margin-right: 25px;
   margin-top: 7px;
   line-height: 24.3px;
 }
@@ -244,7 +244,7 @@
 .about {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding: 182px 24px 0px 17px;;
+  padding: 182px 24px 0 17px;
   gap: 20px;
 }
 
@@ -310,7 +310,7 @@
 
 .footer__social-list {
   grid-area: footer-social-list;
-  display: flex; 
+  display: flex;
   list-style-type: none;
   justify-content: end;
   column-gap: 48px;
@@ -320,4 +320,3 @@
   width: 48px;
   height: 48px;
 }
-
