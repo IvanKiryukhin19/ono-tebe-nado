@@ -1,6 +1,6 @@
 /* место для вашего кода */
 
-.header{
+.header {
   padding: 92px 24px 96px;
   height: 293px;
   font-size: 18px;
@@ -9,7 +9,7 @@
   grid-template-areas: 'header-menu header-logo header-address';
 }
 
-.header__menu{
+.header__menu {
   grid-area: header-menu;
   align-self: center;
   margin-bottom: 18px;
@@ -42,16 +42,16 @@
   list-style-type: none;
 }
   
-.header__logo{
+.header__logo {
   grid-area: header-logo;
   justify-self: center;
 }
   
-.header__logo-image{
+.header__logo-image {
   width: 136px;
 }
   
-.header__address{
+.header__address {
   grid-area: header-address;
   position: absolute;
   width: 240px;
@@ -64,7 +64,7 @@
   line-height: 24.3px;
 }
 
-.cover{
+.cover {
   position: relative;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@
   color: rgb(255, 255, 255);
 }
 
-.overlay{
+.overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -152,7 +152,7 @@
   word-spacing: normal;
 }
   
-.lots{
+.lots {
   padding: 171px 24px 0;
   width: 100%;
 }
@@ -183,7 +183,6 @@
   list-style-type: none;
   height: 100%;
   width: 334px;
-  height: 563px;
 }
 
 .card-link {
@@ -285,7 +284,7 @@
   word-spacing: 1px;
 }
 
-.footer{
+.footer {
   height: 366px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
